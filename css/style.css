@@ -1,0 +1,160 @@
+/* Genral Styles */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&family=Open+Sans:ital,wght@0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,300;1,200;1,300&family=Spline+Sans:wght@300;400;500;700&display=swap");
+:root {
+  --orange-color: #f58d17;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spline Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #777;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.custom-btn {
+  background-color: var(--orange-color);
+  text-decoration: none;
+  padding: 14px 38px;
+  color: white;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.custom-btn:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+@media (max-width: 767px) {
+}
+
+/* End Generals */
+
+/* Start Nav  */
+.navbar img {
+  width: auto;
+}
+
+/* //Start Nav  */
+/* Start slider   */
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.slide-1 {
+  background-image: url(../images/cover1.jpg);
+}
+
+.slide-2 {
+  background-image: url(../images/cover2.jpg);
+}
+
+.slide-3 {
+  background-image: url(../images/cover3.jpg);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  width: 40px !important;
+  height: 70px !important;
+  margin: auto;
+}
+
+/* //End slider   */
+
+/* Start About  */
+
+.about {
+  padding-block: 100px;
+}
+
+.about .divider {
+  width: 60px;
+  height: 3px;
+  background-color: var(--orange-color);
+  margin-bottom: 10px;
+}
+
+/* //End About  */
+
+/* Start Menu  */
+
+.menu {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.menu .nav .nav-item .nav-link {
+  background-color: white;
+  color: black;
+  margin: 0 8px;
+  padding: 8px 16px;
+  border-radius: 30px;
+  box-shadow: 0 40px 40px rgb(236, 235, 235);
+}
+
+.menu .nav .nav-item .nav-link.active {
+  background-color: #f58d17;
+  color: #ffffff;
+}
+
+.shad:hover {
+ /* box-shadow: 0 3px 3px 10px rgb(255, 253, 253); */
+
+}
+
+
+.menu .menu-item-content .rate {
+  color: #777;
+}
+.menu .menu-item-content p{
+  color: #777;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" 200, "opsz"20;
+  color: #f58d17;
+}
+
+/* //End Menu  */
+
+/*Start Features  */
+
+.features {
+  background-image: url(../images/cover2.jpg);
+  padding: 120px 0  ;
+  
+
+}
+
+.features .feature-item span  {
+  font-style: 30px;
+  background-color: var(--orange-color);
+  color: white ;
+  padding: 20px ;
+}
+
+
+/* //End Features  */
